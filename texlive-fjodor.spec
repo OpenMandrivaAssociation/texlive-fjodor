@@ -1,3 +1,9 @@
+# revision 20220
+# category Package
+# catalog-ctan /macros/latex/contrib/fjodor
+# catalog-date 2010-10-26 21:52:03 +0200
+# catalog-license gpl
+# catalog-version undef
 Name:		texlive-fjodor
 Version:	20101026
 Release:	1
@@ -42,6 +48,7 @@ package options.
 %doc %{_texmfdistdir}/doc/latex/fjodor/fjodor.pdf
 %doc %{_texmfdistdir}/doc/latex/fjodor/fjodor.tex
 %doc %{_texmfdistdir}/doc/latex/fjodor/srbook-mem.sty
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -52,3 +59,5 @@ package options.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
