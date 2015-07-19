@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-fjodor
 Version:	20101026
-Release:	9
+Release:	10
 Summary:	A selection of layout styles
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fjodor
