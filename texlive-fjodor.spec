@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-fjodor
 Version:	20180303
-Release:	1
+Release:	2
 Summary:	A selection of layout styles
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fjodor
