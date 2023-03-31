@@ -1,6 +1,6 @@
 Name:		texlive-fjodor
 Version:	53207
-Release:	1
+Release:	2
 Summary:	A selection of layout styles
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fjodor
